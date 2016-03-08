@@ -5,6 +5,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import net.breecko.eersteplugin.commands.Fly;
 import net.breecko.eersteplugin.commands.Jump;
+import net.breecko.eersteplugin.commands.Spawn;
 
 public class Main extends JavaPlugin {
 	
@@ -15,6 +16,8 @@ public class Main extends JavaPlugin {
 		getCommand("jump").setExecutor(jump);
 		Fly fly = new Fly();
 		getCommand("fly").setExecutor(fly);
+		Spawn spawn = new Spawn();
+		getCommand("spawn").setExecutor(spawn);
 	}
 	
 	@Override

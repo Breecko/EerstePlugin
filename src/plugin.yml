@@ -11,3 +11,6 @@ commands:
     fly:
         usage: </command>
         description: Allows the player to fly
+    spawn:
+        usage: </command>
+        description: Sends the player to Spawn

@@ -1,0 +1,13 @@
+name: EerstePlugin
+main: net.breecko.eersteplugin.Main
+version: 1.0.0
+author: Breecko
+description: Epic Jump Plugin yay
+
+commands:
+    jump:
+        usage: </command>
+        description: Teleports the player 10 blocks into the air
+    fly:
+        usage: </command>
+        description: Allows the player to fly

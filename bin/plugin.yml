@@ -6,11 +6,14 @@ description: Epic Jump Plugin yay
 
 commands:
     jump:
-        usage: </command>
+        usage: </jump>
         description: Teleports the player 10 blocks into the air
     fly:
-        usage: </command>
+        usage: </fly>
         description: Allows the player to fly
     spawn:
-        usage: </command>
+        usage: </spawn>
         description: Sends the player to Spawn
+    afk:
+        usage: </afk>
+        description: Puts the player in AFK mode

@@ -3,6 +3,7 @@ package net.breecko.eersteplugin;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import net.breecko.eersteplugin.commands.Fly;
 import net.breecko.eersteplugin.commands.Jump;
 
 public class Main extends JavaPlugin {

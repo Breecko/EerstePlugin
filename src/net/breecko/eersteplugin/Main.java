@@ -6,6 +6,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import net.breecko.eersteplugin.commands.Fly;
 import net.breecko.eersteplugin.commands.Jump;
 import net.breecko.eersteplugin.commands.Spawn;
+import net.breecko.eersteplugin.commands.AFK;
 
 public class Main extends JavaPlugin {
 	
@@ -18,6 +19,8 @@ public class Main extends JavaPlugin {
 		getCommand("fly").setExecutor(fly);
 		Spawn spawn = new Spawn();
 		getCommand("spawn").setExecutor(spawn);
+		AFK afk = new AFK();
+		getCommand("afk").setExecutor(afk);
 	}
 	
 	@Override

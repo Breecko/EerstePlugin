@@ -22,7 +22,7 @@ public class Main extends JavaPlugin {
 	
 	@Override
 	public void onDisable(){
-		//Not relevant for now
+		Bukkit.getLogger().info("Plugin has shut down!")
 	}	
 	
 }

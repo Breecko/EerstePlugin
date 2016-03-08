@@ -12,6 +12,8 @@ public class Main extends JavaPlugin {
 		Bukkit.getLogger().info("Plugin has started!");
 		Jump jump = new Jump();
 		getCommand("jump").setExecutor(jump);
+		Fly fly = new Fly();
+		getCommand("fly").setExecutor(fly);
 	}
 	
 	@Override
